@@ -1,0 +1,16 @@
+p{
+	font-family: "karla",sans-serif;
+
+}
+
+h1:hover{
+	background-color: yellow;
+	border-style:dotted;
+	border-radius: 20px;
+	
+}
+p:hover{
+		border-style:solid;
+		
+
+}
