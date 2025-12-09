@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Regestration form</title>
+	<style>
+		.audio{
+			transition-duration: 0.3s;
+			margin-left:20px;
+
+
+		}
+		.audio:hover{
+			transform: scale(1.1);
+			box-shadow: 0 0 20px black;
+
+			background-color:lightgrey;
+		}
+		.b1{
+			margin: 15px ; /*TRBL*/
+			/*width:150px;
+			height:50px;*/
+			padding: 10px 20px;
+			background-color: cyan;
+			transition:0.3s ease ;
+		}
+		.b1:hover{
+			/*width:170px;
+			height:60px;*/ 
+			
+			background-color: yellow;
+			transform:scale(1.1);
+			/*transition-duration:0.3s;*/
+			/* font-size: 20px ;*/
+			font-style:bold ;
+			border-radius:15px;
+
+		}
+		.b2{
+			margin: 15px ; /*TRBL*/
+			/*width:150px;
+			height:50px;*/
+			padding: 10px 20px;
+			background-color: cyan;
+			transition:0.3s ease ;
+		}
+		.b2:hover{
+			/*width:170px;
+			height:60px;*/ 
+			
+			background-color: yellow;
+			transform:scale(1.1);
+			transition-duration:0.3s;
+			/*font-size: 20px ;*/
+			font-style:bold ;
+			border-radius:15px;
+
+		}
+		
+		
+
+
+
+	</style>
+</head>
+<body>
+	<form>
+ 	 Fullname:- <input type="text" autofocus minlength="2" maxlength="20"> <br> <br>
+
+ 	 Date of Birth:- <input type="date" > <br> <br> 
+
+ 	 Email id :- <input type="email" required > <br> <br>
+
+ 	 Mobile number:-<input type="tel"><br><br>
+
+ 	 password:- <input type="password" placeholder="atleast 1 apecial character"><br><br>
+
+ 	 photo:- <br><br>
+ 	 <img src="images/captianamerica.jpg" width="300"height="300" border="2"><br><br>
+
+ 	 gender :-<input type="radio" name="gender"> Male <input type="radio" name="gender"> Female <br><br> 
+
+ 	 language :-<input type="checkbox"> c <input type="checkbox"> C++ <br><br>
+
+ 	 Give opinion here:- <br>
+ 	 <textarea rows="20" cols="100"  style ="border: 2px solid cyan";></textarea> <br><br>
+
+ 	 Address:-
+ 	<select> <option>Amravati</option>
+ 			<option>Yavatmal</option>
+ 		</select> <br><br>
+
+ 		<input type="range" name="" min="0" max="100" steps="10"><br><br>
+ 		Audio:-<br><br>
+
+ 	<audio controls class="audio" loop autoplay> 
+ 		<source src="images/voice.mp3" >       
+
+ 	</audio>
+ 	<br><br>
+
+
+
+
+ 	 <button type="Submit" class="b1">Register</button> 
+
+ 	 <button type="Reset" class="b2">Reset</button>
+
+
+ 	</form>
+
+</body>
+</html> 
